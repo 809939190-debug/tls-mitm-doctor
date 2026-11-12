@@ -76,7 +76,7 @@ DSH 桌面版运行在 Electron 主进程里，其模型请求使用 Node 的 TL
 ## 临时绕过（用户侧，已验证）
 
 ```bat
-:: 导出卡巴根证书为 PEM（也可用 dets 工具：https://github.com/<TBD>/tls-mitm-doctor）
+:: 导出卡巴根证书为 PEM（可用本仓库的 tls-mitm-doctor：node export-ca.mjs --host api.deepseek.com --out kaspersky-root-ca.pem）
 :: 然后：
 setx NODE_EXTRA_CA_CERTS "C:\path\kaspersky-root-ca.pem"
 :: 完全退出 DSH（托盘 → 退出）后重新启动
