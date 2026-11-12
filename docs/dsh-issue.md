@@ -1,5 +1,10 @@
 # DSH issue 草稿：桌面版不信任 Windows 证书库，导致卡巴斯基等 HTTPS 扫描环境下模型请求报 “DeepSeek Messages transport failed”
 
+> **提交渠道说明（2026-11-13）**：`deepseek-ai/deepseek-harness` 已禁用 Issues，只用 Discussions。
+> 通过 GitHub API（GraphQL `createDiscussion`）自动发帖被拒（`FORBIDDEN`：存储的 OAuth token 无该权限），需要手动粘贴。
+> 可直接复制提交的完整帖子见 [`dsh-discussion-post.md`](./dsh-discussion-post.md)，在线入口：
+> <https://github.com/deepseek-ai/deepseek-harness/discussions/new?category=general>
+>
 > 用途：向 DSH（DeepSeek Harness）官方提交问题/建议。可按实际渠道（应用内反馈 / 仓库 issue / 官方社区）调整格式；中文正文可直接用，末尾附英文摘要。
 
 ## 标题建议
