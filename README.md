@@ -135,6 +135,11 @@ lib/common.mjs     # 共享逻辑（握手、证书库读取、证书解析、i1
 docs/dsh-issue.md  # 给 DSH 的 issue 草稿（可作为产品侧修复建议的范例）
 ```
 
+## 仓库
+
+- GitHub: https://github.com/809939190-debug/tls-mitm-doctor
+- 问题反馈 / Issue: https://github.com/809939190-debug/tls-mitm-doctor/issues
+
 ## License
 
 MIT。本工具与 Kaspersky、DeepSeek 等厂商无隶属关系，相关商标归各自所有者。

@@ -36,5 +36,13 @@
     "self-signed",
     "ssl-inspection"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/809939190-debug/tls-mitm-doctor.git"
+  },
+  "homepage": "https://github.com/809939190-debug/tls-mitm-doctor",
+  "bugs": {
+    "url": "https://github.com/809939190-debug/tls-mitm-doctor/issues"
+  }
 }

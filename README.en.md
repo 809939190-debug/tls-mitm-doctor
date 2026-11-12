@@ -132,6 +132,11 @@ lib/common.mjs     # shared logic (handshake, store access, X509 parsing, i18n)
 docs/dsh-issue.md  # draft issue for DSH (an example product-side fix request)
 ```
 
+## Repository
+
+- GitHub: https://github.com/809939190-debug/tls-mitm-doctor
+- Issues: https://github.com/809939190-debug/tls-mitm-doctor/issues
+
 ## License
 
 MIT. Not affiliated with Kaspersky, DeepSeek, or any other vendor mentioned; trademarks belong to their owners.
