@@ -1,0 +1,7 @@
+node_modules/
+*.pem
+*.log
+*.jsonl
+.DS_Store
+Thumbs.db
+local-roots.pem

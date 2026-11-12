@@ -1,0 +1,40 @@
+{
+  "name": "tls-mitm-doctor",
+  "version": "0.1.0",
+  "description": "Detect TLS interception by local security software / corporate proxies (Kaspersky, ESET, 360, Zscaler, ...) and make Node/Electron apps trust the locally-installed root CA.",
+  "type": "module",
+  "bin": {
+    "tls-mitm-doctor": "./doctor.mjs",
+    "tls-mitm-export-ca": "./export-ca.mjs"
+  },
+  "files": [
+    "doctor.mjs",
+    "export-ca.mjs",
+    "lib/",
+    "docs/",
+    "README.md",
+    "README.en.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "doctor": "node doctor.mjs",
+    "export-ca": "node export-ca.mjs",
+    "check": "node --check doctor.mjs && node --check export-ca.mjs && node --check lib/common.mjs"
+  },
+  "keywords": [
+    "tls",
+    "mitm",
+    "certificate",
+    "kaspersky",
+    "antivirus",
+    "electron",
+    "node",
+    "windows",
+    "self-signed",
+    "ssl-inspection"
+  ],
+  "license": "MIT"
+}
